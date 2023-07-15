@@ -1,13 +1,79 @@
-body {
+body{
+  font-family: 'Inter',sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav{
+  width:100%;
+  background-color: #F55A51;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.nav img{
+  width:24px;
+  height:24px;
+  padding: 16px 10px;
+}
+
+.nav p{
+  color: white;
+  font-size: 14.5px;
+}
+
+.card{
+  width: 471px;
+  height: 168px;
+  margin: 36px auto;
+  display: flex;
+}
+
+.card .info{
+  width: 326px;
+  height: fit-content;
+  margin: 0px auto;
+  color:#2B283A;
+}
+
+.card .info .row{
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  margin: 5px 0 0 0;
+}
+
+.card .info .row .pointer{
+  height: 9.55px;
+  width:7px;
+}
+
+.card .info .row .nation{
+  font-size: 10.24px;
+  padding: 0 10px;
+  letter-spacing: 17%;
+}
+
+.card .info .row .maps{
+  font-size: 10.24px;
+  color:#918e9b;
+  padding: 0 10px;
+  text-decoration: underline;
+}
+
+.card .info .title{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.card .info .date{
+  display: flex;
+  font-size: 10.24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card .info .description{
+  font-size: 10.24px;
 }
